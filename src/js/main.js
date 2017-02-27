@@ -28,6 +28,9 @@ GildedRose.prototype.tick = function () {
       }
     }
   }
+  if (this.name === 'Conjured Mana Cake'){
+    this.quality = this.quality - 1;
+  }
   if (this.name != 'Sulfuras, Hand of Ragnaros') {
     this.sellIn = this.sellIn - 1;
   }
