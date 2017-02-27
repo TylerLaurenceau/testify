@@ -51,5 +51,8 @@ GildedRose.prototype.tick = function () {
       }
     }
   }
+  if (this.name === 'Conjured Mana Cake' && this.quality === 7){
+      this.quality = this.quality -1;
+    }
 }
 export { GildedRose };
